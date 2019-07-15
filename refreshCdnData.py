@@ -7,7 +7,7 @@ import sys
 
 
 def sendRefresh(version):
-    objectPath = "www.guangmangapp.com/api/h5/" + version + "/"
+    objectPath = "https://www.guangmangapp.com/api/h5/" + version + "/"
     user_params = {
         "Action": "RefreshDcdnObjectCaches", "ObjectPath": objectPath, "ObjectType": "Directory"
     }
